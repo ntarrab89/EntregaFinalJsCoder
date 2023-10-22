@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    
+}
+.container-gondola{
+    background-color: aqua;
+}
+.box-product{
+    display: flex;
+    flex-direction: row;
+}
+.container-carrito{
+    background-color:beige;
+}
+.box-carrito{
+    display: flex;
+    flex-direction: row;
+}
+#tabla{
+    font-size: 2rem;
+}
+table{
+
+    text-align: center;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    background-color: rgb(200, 200, 247);
+
+}
+article{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    text-align: center;
+}
+article h1{
+    font-size: 4rem;
+    color: rgb(67, 67, 67);
+}
+aside{
+    width: 30%;
+    font-size: 1.5rem;
+    background-color: rgb(10, 52, 238);
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 30px;
+    line-height: 3.5rem;
+
+}
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
+aside h1{
+    text-align: center;
+}
+.btn{
+    border-radius: 50px;
+}
+.minimo{
+    width: 50px;
+}
+.mitadangosto{
+    width: 75px;
+}
+.angosto{
+    width: 150px;
+}
+.medio{
+    width: 250px;
+}
+.ancho{
+    width: 400px;
+}
+.btnAgregar{
+    width: 200px;
+    border-radius: 5%;
+    font-size: 1.2rem;
+}
+.puntero{
+    color:rgb(88, 207, 243);
+    font-size: 1.5rem;
+}
+
+.tituloGondola{
+    display: flex;
+    flex-direction: row;
+    justify-content :center;
+    padding-bottom: 50px;
+}
+.space300{
+    width: 300px;
+}
+.tituloCarrito{
+    padding-bottom: 30px;
+    color: rgb(153, 208, 224);
+}
+.titulosChart{
+    color: rgb(234, 206, 170);
+}
+.titulosMain{
+    color:rgb(91, 91, 91);
+}
+#tabla .titulos:hover{
+background-color: rgb(200, 200, 247);
+}
+#tabla tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.291);
+    line-height: 5rem;
+    font-weight: 600;
+}
+#tabla tr:hover{
+    background-color: grey;
+}

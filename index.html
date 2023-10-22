@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <article>
+            <div class="tituloGondola">
+            <h1>Listado de productos de góndola</h1>
+            <div class="space300"></div>
+            <button class='btn btn-outline-success btnAgregar' id='addBtn' onclick='agregarProducto()'>Agregar producto a góndola</button>
+            </div>
+            <table id="tabla">
+                <tr  class='titulos'>
+                <td class='angosto titulosMain'>ID</td>
+                <td class='angosto titulosMain'>Nombre</td>
+                <td class='angosto titulosMain'>Precio</td>
+                </tr>
+            </table>
+        </article>
+        <aside>
+            <div>
+            <h1 class="tituloCarrito">Carrito de compra</h1>
+            <table id="trcarrito">
+                <td></td>
+                <td class='angosto titulosChart'>Nombre</td>
+                <td class='angosto titulosChart'>Precio(u)</td>
+                <td class='angosto titulosChart'>Cantidad</td>
+                
+            </table>
+            </div>
+            <h1 id="totalCompra">Total: </h1>
+        </aside>
+    </main>
+  <!-- <div class="container-carrito">
+  </div> -->
+
+<!-- <div class="container-gondola">
+</div> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
