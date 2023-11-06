@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "precio":1500,
+        "nombre":"Bife"
+    },
+    {
+        "id": 2,
+        "precio":1750,
+        "nombre":"Vacio"
+    },
+    {
+        "id": 3,
+        "precio":2050,
+        "nombre":"Lomo"
+    },
+    {
+        "id": 4,
+        "precio":1500,
+        "nombre":"Asado"
+    },
+    {
+        "id": 5,
+        "precio":1200,
+        "nombre":"Chorizo"
+    },
+    {
+        "id": 6,
+        "precio":1100,
+        "nombre":"Morcilla"
+    },
+    {
+        "id": 7,
+        "precio":950,
+        "nombre":"Entraña"
+    },
+    {
+        "id": 8,
+        "precio":1750,
+        "nombre":"Cuadril"
+    }
+
+]
