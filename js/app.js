@@ -5,7 +5,7 @@ let carrito=[]
 // console.log(gondola)
 window.onload = function() {
 
-fetch('../js/articulos.json')
+fetch('js/articulos.json')
 .then(response=>response.json())
 .then((data)=>{
      console.log(data)
